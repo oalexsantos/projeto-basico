@@ -1,0 +1,54 @@
+aside {
+    width: 30%;
+    min-width: 280px;
+}
+
+aside h2 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+aside p {
+    margin: 0;
+    font-size: 14px;
+    margin-bottom: 20px;
+    width: 80%;
+}
+
+form div label,
+form div input {
+    display: block;
+}
+
+form div label {
+    font-size: 12px;
+    color: black;
+    margin-bottom: 5px;
+}
+
+form div input {
+    border: none;
+    background-color: #e3e3e3;
+    border-radius: 5px;
+    height: 35px;
+    width: 100%;
+    padding-left: 15px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+
+form div input:focus {
+    outline: none;
+}
+
+form button {
+    border: none;
+    margin-bottom: 20px;
+    background-color: #61dafb;
+    border-radius: 5px;
+    height: 35px;
+    width: 110px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
